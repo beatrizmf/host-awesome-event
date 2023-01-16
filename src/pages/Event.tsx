@@ -3,7 +3,7 @@ import { Header } from '../components/Header';
 import { Sidebar } from '../components/Sidebar';
 import { Video } from '../components/Video';
 
-function Event() {
+export function Event() {
   const { slug } = useParams<{ slug: string }>();
 
   return (
@@ -16,5 +16,3 @@ function Event() {
     </div>
   );
 }
-
-export default Event;
